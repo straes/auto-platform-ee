@@ -1,0 +1,9 @@
+---
+collections:
+  - awx.awx
+  - community.general
+  - netapp.ontap
+  - netapp.um_info
+  - netapp.elementsw
+  - netapp.aws
+  - netapp.azure
