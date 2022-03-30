@@ -1,11 +1,13 @@
 ---
 version: 1
+
+ansible_config: 'ansible.cfg'
+
 dependencies:
   galaxy: requirements.yml
   python: requirements.txt
   system: bindep.txt
-
-
+ 
 additional_build_steps:
   append:
     - RUN alternatives --set python /usr/bin/python3
